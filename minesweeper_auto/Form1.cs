@@ -21,9 +21,9 @@ namespace minesweeper_auto
         
         public int cell_width = 16, cell_height = 16; // マスの大きさ
 
-        public int process_span = 150; // 実行周期(ms)
+        public int process_span = 1000; // 実行周期(ms)
 
-        public int map_width = 8, map_height = 8; // 横方向と縦方向のマスの数
+        public int map_width = 16, map_height = 16; // 横方向と縦方向のマスの数
                                                   // メモ
                                                   // 初級: 8 * 8
                                                   // 中級: 16 * 16
@@ -126,12 +126,15 @@ namespace minesweeper_auto
             Point mine2000_offset = new Point(2, 34);
 
             mine2000_find(ref mine2000_pos, ref mine2000_rect);
+            int counter_of_image = 0;
 
             var progress1 = new Progress<int>((hoge) =>
             {
                 if (is_running)
                 {
                     Bitmap img_bit = copy_from_screen(new Point(mine2000_pos.X + mine2000_offset.X, mine2000_pos.Y + mine2000_offset.Y), cell_width * map_width, cell_height * map_height);
+                    img_bit.Save(counter_of_image.ToString() + ".jpg");
+                    counter_of_image++;
                     BitmapPlus img_bit_p = new BitmapPlus(img_bit);
                     img_bit_p.BeginAccess();
                     for (int x = 0; x < map_width; x++)
