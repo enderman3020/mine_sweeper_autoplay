@@ -1,7 +1,7 @@
 # mine_sweeper_autoplay
 マウスをプログラムから操作するアプリ
 
-## Demo (中級)
+## Demo
 
 ![result](https://github.com/enderman3020/mine_sweeper_autoplay/blob/master/auto_play.gif)
 
