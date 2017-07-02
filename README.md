@@ -3,5 +3,7 @@
 
 ## Demo
 
-Depending on input, the output is displayed as the result like the image below.
 ![result](https://github.com/enderman3020/mine_sweeper_autoplay/blob/master/auto_play.gif)
+
+こんな感じ。
+解く時間はだいたい５秒くらい。
