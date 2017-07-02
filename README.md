@@ -5,5 +5,5 @@
 
 ![result](https://github.com/enderman3020/mine_sweeper_autoplay/blob/master/auto_play.gif)
 
-こんな感じ。
-解く時間はだいたい５秒くらい。
+こんな感じ。（中級の場合）
+だいたい５秒くらいで解ける。
