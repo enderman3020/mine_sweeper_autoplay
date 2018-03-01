@@ -1,5 +1,6 @@
 # mine_sweeper_autoplay
 マウスとキーボードを操作するアプリ
+
 mine2000 に対応している。
 
 ## Demo
