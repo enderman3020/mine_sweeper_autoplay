@@ -1,7 +1,7 @@
 # mine_sweeper_autoplay
 マウスとキーボードを操作するアプリ。Win32 APIを用いて作った。
 
-mine2000 に対応している。
+mine2000（フリーソフト）に対応している。
 
 ## Demo
 
